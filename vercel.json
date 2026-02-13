@@ -131,23 +131,5 @@
       ]
     }
   ],
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/:path*.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/((?!api/|.*\\..*).*)",
-      "destination": "/$1.html"
-    },
-    {
-      "source": "/((?!api/|.*\\..*).*)",
-      "destination": "/index.html"
-    }
-  ]
+  "cleanUrls": true
 }
