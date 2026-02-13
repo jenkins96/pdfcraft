@@ -91,7 +91,6 @@
 }
   ],
   "rewrites": [
-    { "handle": "filesystem" },
     {
       "source": "/((?!api/|.*\\..*).*)",
       "destination": "/$1/index.html"
